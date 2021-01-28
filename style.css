@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to top,#E6DACE 75%, white 25%); /* W3C */
+}
+@media only screen and (min-width: 768px){
+    .container{
+        background: linear-gradient(to top,#E6DACE 70%, white 30%); /* W3C */
+    }
+}
+#card{
+    box-shadow: -5px 3px 15px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f4ece6;
+}
+.line{
+    background-color: #0050ff;
+    height: 2px;
+    width: 30%;
+}
+#works div:first-child{
+    background-color: #0050ff;
+    color: white;
+}
+#works div:last-child{
+    background-color: transparent;
+    border: black 1px solid;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+.fa-square-full{
+    color: #0050ff;
+}
