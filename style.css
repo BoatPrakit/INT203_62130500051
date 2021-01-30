@@ -15,7 +15,7 @@ body{
 }
 @media only screen and (min-width: 1280px){
     body{
-        background: linear-gradient(to left, white 60%, #E6DACE 40%); /* W3C */
+        background: linear-gradient(to left, white 65%, #E6DACE 35%); /* W3C */
     }
 }
 #card{
