@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic Vue Js - HelloWorld App</title>
+  <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+  <!-- Using via Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- https://tailwindcss.com/docs/installation -->
+  <!-- Using Tailwind via CDN -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+  <!-- Vue CDN -->
+  <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+  <title>Basic Vue Js - HelloWorld App</title>
+</head>
+
+<body class="bg-gray-300 w-full">
+  <div id="app" class="flex items-center justify-center h-screen">
+    <div class="bg-white w-2/4 p-10">
+      <div>
+        <div class="top flex justify-between my-7">
+          <div class="flex flex-col">
+            <h1 class="font-bold text-3xl">{{ nickname }}</h1>
+            <h1 class="font-bold text-3xl">{{ name }}</h1>
+            <h2 class="text-lg opacity-40">{{ career }}</h2>
+          </div>
+          <img :src="img" class="w-1/4"> 
+        </div>
+        <div class="bot flex justify-between text-center text-lg">
+          <div class="flex flex-col">
+            <h3 class="text-xl font-semibold">Followers</h3>
+            <p>{{ followers }}</p>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="text-xl font-semibold">Following</h3>
+            <p>{{ following }}</p>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="text-xl font-semibold">Groups</h3>
+            <p>{{ groups }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- my main.js -->
+  <script src="./profile.js">   </script>
+</body>
+
+</html>
